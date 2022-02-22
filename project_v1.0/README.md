@@ -5,7 +5,7 @@ This project was created to demonstrate how a lane detection system works on car
 Finding a place in more and more vehicles, this system is an essential part of the advanced driver assistance systems (ADAS) used in
 autonomous / semi-autonomous vehicles. This feature is responsible for detecting lanes, measuring curve radius (tightness of a curve) and monitors the offset from center. With this information, the system significantly improves safety by making sure the vehicle is centered inside the lane lines, as well as adds comfort if it is also configured to control the steering wheel to take gentle curves on highways without any driver input. This is a simplified version of what is used in production vehicles, and best functions if good conditions are provided (clear lane lines, stable light conditions). In this repository, it is included a dash cam footage for the script to work with.
 
-#### [**Demo Video**](https://youtu.be/R9Ee8Zcqax0) (Click to see the full video)
+## Demo 
 
 ![](https://imgur.com/CujBKoY.gif)
 
@@ -19,7 +19,7 @@ This project follows a simplistic approach in terms of how to run it. Only 2 fil
 
 Simply clone this repository to desired path by launching command prompt and running
 ```
-git clone https://github.com/canozcivelek/lane-detection-with-steer-and-departure.git
+git remote add origin https://github.com/subhransu-bhoi/project_university.git
 ```
 Make sure both files (laneDetection.py & drive.mp4) are in the same directory.
 
@@ -111,10 +111,6 @@ It should be noted that this project was created for demonstration purposes and 
 ## Further Notes
 If we were to compare this project to one of the production grade versions, things get significantly more sophisticated as error rates should be extremely low and the system should be able to adapt to various situations. For example, unstable light conditions where there is huge amount of change in light density, or weather conditions that has impact on road surface visibility etc. Many variables are hardcoded in this project where any change could lead this particular setup to failure. That's why methods like machine learning should be used to make this system more adaptive and less prone to fail in real life conditions.
 
-## Acknowledgements
-During the making of this project, below presentation was found to be helpful and this project follows a similar approach to what is being shown in the presentation.
-
-Presentation: https://www.youtube.com/watch?v=VyLihutdsPk&t=1295s
 
 
 
